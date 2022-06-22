@@ -50,16 +50,16 @@ const Navbar = () => {
             </button>
           </div>
           <div className="mr-2 hidden md:block">
-            <a href="/#" className="uppercase mx-2 text-stone-200 hover:text-gray-50">
+            <a href="#about" className="uppercase mx-2 text-stone-200 hover:text-gray-50">
               About
             </a>
-            <a href="/#" className="uppercase mx-2 text-stone-200 hover:text-gray-50">
+            <a href="#trainers" className="uppercase mx-2 text-stone-200 hover:text-gray-50">
               Trainers
             </a>
-            <a href="/#" className="uppercase mx-2 text-stone-200 hover:text-gray-50">
+            <a href="#pricing" className="uppercase mx-2 text-stone-200 hover:text-gray-50">
               Pricing
             </a>
-            <a href="/#" className="uppercase mx-2 text-stone-200 hover:text-gray-50">
+            <a href="#contact" className="uppercase mx-2 text-stone-200 hover:text-gray-50">
               Contact Us
             </a>
           </div>
@@ -68,16 +68,16 @@ const Navbar = () => {
         {/* mobile menu */}
         <div className="md:hidden">
           <div className={!isOpen ? "hidden" : "flex flex-col items-center"}>
-            <a href="/#" className="uppercase my-2 text-stone-200 hover:text-gray-50">
+            <a href="#about" className="uppercase my-2 text-stone-200 hover:text-gray-50">
               About
             </a>
-            <a href="/#" className="uppercase my-2 text-stone-200 hover:text-gray-50">
+            <a href="#trainers" className="uppercase my-2 text-stone-200 hover:text-gray-50">
               Trainers
             </a>
-            <a href="/#" className="uppercase my-2 text-stone-200 hover:text-gray-50">
+            <a href="#pricing" className="uppercase my-2 text-stone-200 hover:text-gray-50">
               Pricing
             </a>
-            <a href="/#" className="uppercase my-2 text-stone-200 hover:text-gray-50">
+            <a href="#contact" className="uppercase my-2 text-stone-200 hover:text-gray-50">
               Contact Us
             </a>
           </div>

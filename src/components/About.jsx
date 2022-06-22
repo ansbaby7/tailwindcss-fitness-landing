@@ -2,7 +2,7 @@ import forAbout from "../assets/forAbout.jpg";
 
 const About = () => {
   return (
-    <div className="bg-gray-900 p-4">
+    <div className="bg-gray-900 p-4" id="about">
       <div className="m-4 flex flex-col items-center lg:items-start lg:flex-row lg:justify-evenly">
         <img src={forAbout} className="w-[490px] h-[440px] object-cover"></img>
         <div className=" flex flex-col items-center py-4">

@@ -4,10 +4,10 @@ import trainer3 from "../assets/trainer3.jpg";
 
 const Trainers = () => {
   return (
-    <div className="bg-gray-900 p-4">
+    <div className="bg-gray-900 p-4" id="trainers">
       <div className="flex flex-col">
         <h1 className="text-center uppercase text-3xl text-gray-50 mb-2">Our Trainers</h1>
-        <div className="flex justify-evenly mb-8 flex-wrap">
+        <div className="flex justify-evenly flex-wrap">
           <div className="mt-4 mb-2 mx-3">
             <img src={trainer1} className="w-80 h-80 object-cover"></img>
             <div className="bg-gray-100 w-80">

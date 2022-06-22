@@ -1,7 +1,7 @@
 const Pricing = () => {
   return (
-    <div className="bg-slate-900">
-      <h1 className="text-center text-3xl px-4 uppercase text-gray-50">
+    <div className="bg-slate-900 py-4" id="pricing">
+      <h1 className="text-center text-3xl px-4 mb-8 uppercase text-gray-50">
         Pricing
       </h1>
       <div className="flex flex-wrap justify-center">

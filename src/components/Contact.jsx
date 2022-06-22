@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="bg-slate-900 flex flex-col justify-between">
+    <div className="bg-slate-900 flex flex-col justify-between" id="contact">
       <div className="mt-4">
         <h1 className="text-gray-50 text-3xl text-center">CONTACT US</h1>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 ">
