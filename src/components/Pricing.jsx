@@ -6,6 +6,8 @@ const Pricing = () => {
       </h1>
       <div className="flex flex-wrap justify-center">
         {/* className ="flex flex-col items-center lg:flex-row lg:justify-evenly" */}
+
+        {/* starter */}
         <div className="bg-slate-800 w-72 h-96 m-4 px-4 flex flex-col justify-center">
           <h1 className="text-center text-gray-100 text-2xl font-bold mb-4 uppercase">
             Starter
@@ -49,10 +51,12 @@ const Pricing = () => {
               </li>
             </ul>
           </div>
-          <button className="bg-purple-600 text-xl py-2 text-gray-100 my-2">
+          <button className="bg-purple-600 text-xl py-2 text-gray-100 my-2 hover:bg-purple-900">
             JOIN NOW
           </button>
         </div>
+
+        {/* standard */}
         <div className="bg-slate-800 w-72 h-96 m-4 px-4 flex flex-col justify-center">
           <h1 className="text-center text-gray-100 text-2xl font-bold mb-4 uppercase">
             Standard
@@ -112,10 +116,12 @@ const Pricing = () => {
               </li>
             </ul>
           </div>
-          <button className="bg-purple-600 text-xl py-2 uppercase text-gray-100 my-2">
+          <button className="bg-purple-600 text-xl py-2 uppercase text-gray-100 my-2 hover:bg-purple-900">
             JOIN NOW
           </button>
         </div>
+
+        {/* professional */}
         <div className="bg-slate-800 w-72 h-96 m-4 px-4 flex flex-col justify-center">
           <h1 className="text-center text-gray-100 text-2xl font-bold mb-4 uppercase">
             Professional
@@ -191,7 +197,7 @@ const Pricing = () => {
               </li>
             </ul>
           </div>
-          <button className="bg-purple-600 text-xl py-2 uppercase text-gray-100 my-2">
+          <button className="bg-purple-600 text-xl py-2 uppercase text-gray-100 my-2 hover:bg-purple-900">
             JOIN NOW
           </button>
         </div>
